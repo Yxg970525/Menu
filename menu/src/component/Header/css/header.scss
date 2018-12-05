@@ -1,0 +1,17 @@
+.Header{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px dashed #ccc;
+    justify-content: center;
+    font-size: 0.7rem;
+    flex-shrink: 0;
+
+    // background: #ccc;   
+    i.jiantou{
+        position: absolute;
+        left:0.3rem;
+
+    }
+}

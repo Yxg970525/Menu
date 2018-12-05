@@ -1,0 +1,112 @@
+.Menu{
+    width: 100%;
+    padding: 0.3rem 0 0rem 0;
+    display: flex;
+    flex-shrink: 0;
+    // height: 100%;
+    .Menu_Nav{
+        width: 2.5rem;
+        height: 13.5rem;
+        // border-right: 1px solid #ccc;
+        background: #f8f8f8;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        overflow-y: auto;
+        .navList{
+            padding: 0.5rem 0.1rem;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            color: #666;
+            font-size: 0.3rem;
+        }
+        .NavActive{
+            background: #fff;
+        }
+    }
+    .Menu_List{
+        flex:1;
+        // height: 100%;
+        overflow-y:auto;
+
+        .list_Item{
+            width: 100%;
+            .list_Item_tit{
+                width: 100%;
+                padding: 0.3rem;
+                box-sizing: border-box;
+            }
+            .list_Item_detail{
+                width: 100%;
+                display: flex;
+                padding: 0.2rem;
+                box-sizing: border-box;
+                
+                .list_Item_img{
+                    width: 2.5rem;
+                    &>img{
+                        width: 100%;
+                    }
+                }
+                .list_Item_Msg{
+                    flex:1;
+                    display: flex;
+                    flex-direction: column;
+                    box-sizing: border-box;
+                    padding: 0 0.2rem;
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                    h3{
+                        font-size: 0.4rem;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                    }
+                    span{
+                        font-size: 0.3rem;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                        color: #999;
+                    }
+                    .list_Item_pic{
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        &>p{
+                            // padding: 0 0.5rem;
+                            color: rgb(255, 83, 57);
+                            i{
+                                font-size: 0.5rem;
+                            }
+                        }
+                        .rec_item_btns{
+                            display: flex;
+                            justify-content: center;
+                            &>p{
+                                padding: 0 0.5rem;
+
+                            }
+                            .btn{
+                                width: 0.6rem;
+                                height: 0.6rem;
+                                border-radius: 50%;
+                                background: #2395ff;
+                                text-align: center;
+                                line-height: 0.6rem;
+                                span{
+                                    color: #fff;
+                                    font-size: .5rem;
+                                    line-height: 0.6rem;
+                                    z-index: 999;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

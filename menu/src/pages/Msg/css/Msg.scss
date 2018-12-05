@@ -1,0 +1,118 @@
+.Msg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .guestMsg{
+        width: 100%;
+        padding: 0.3rem 0.3rem 0 0.3rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: 3rem;
+        .desk{
+            display: flex;
+            align-items: center;
+            padding: 0.3rem 0;
+            border-bottom: 1px solid #ccc;
+            .deskNUm{
+                width: 3rem;
+                border: 0px solid #ccc;
+            }
+        }
+        .peopleNum{
+            display: flex;
+            align-items: center;
+            // border-bottom:1px solid #ccc;
+        }
+    }
+    .isMenu{
+        width: 100%;
+        flex:1;
+        overflow-y:auto;
+        &>h2{
+            width: 100%;
+            height: 1rem;
+            display: flex;
+            align-items: center;
+            padding-left: 0.5rem;
+            box-sizing: border-box;
+            background: #e2e2e2;
+            color: #333;
+        }
+        .isMenuTit,{
+            width: 100%;
+            display: flex;
+            height: 1rem;
+            align-items: center;
+            
+            border-bottom: 1px dashed #ccc;
+            li{
+                flex:1;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap
+            }
+            &>li:nth-child(1){
+                justify-content: start;
+                padding-left: 0.2rem;
+            }
+        }
+        .MenuList{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .addMenu{
+        width: 70%;
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        border-radius: 0.3rem;
+        border:1px solid #ccc;
+        background:linear-gradient(#fff,#e3dcdc);
+        box-shadow: 0.09rem 0.01rem 5px #888888;
+        i.canpan{
+            font-size: 0.9rem;
+            color: red;
+        }
+    }
+    .Footer{
+        width: 100%;
+        height: 1.5rem;
+        background: rgba(61, 61, 63, 0.9);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        margin-top: 0.3rem;
+        .all{
+            display: flex;
+            width: 30%;
+            justify-content: space-around;
+            .allnum,.allpic{
+                color: #fff;
+                font-size: 0.5rem;
+                span{
+                    color: red;
+                }
+            }
+        }
+        .goPay{
+            width: 3rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: red;
+            color: #fff;
+        }
+    }
+    
+}

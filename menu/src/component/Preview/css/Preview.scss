@@ -1,0 +1,33 @@
+.Preview{
+    width: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    .Previewimg{
+        width: 100%;
+    }
+    .menuPreview{
+        width: 100%;
+        display: flex;
+        .PreviewImg{
+            width: 28%;
+            &>img{
+                width: 100%;
+            }
+        }
+        .previewMsg{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-top:3px dashed #ccc;
+            .preContent{
+                color: #666;
+                font-size: 0.2rem;
+            }
+            span{
+                color: #ff5339;
+            }
+        }
+    }
+}

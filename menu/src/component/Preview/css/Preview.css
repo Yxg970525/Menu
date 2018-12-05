@@ -1,0 +1,40 @@
+.Preview {
+  width: 100%;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+
+.Preview .Previewimg {
+  width: 100%;
+}
+
+.Preview .menuPreview {
+  width: 100%;
+  display: flex;
+}
+
+.Preview .menuPreview .PreviewImg {
+  width: 28%;
+}
+
+.Preview .menuPreview .PreviewImg > img {
+  width: 100%;
+}
+
+.Preview .menuPreview .previewMsg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px dashed #ccc;
+}
+
+.Preview .menuPreview .previewMsg .preContent {
+  color: #666;
+  font-size: 0.2rem;
+}
+
+.Preview .menuPreview .previewMsg span {
+  color: #ff5339;
+}
