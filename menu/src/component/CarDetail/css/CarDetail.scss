@@ -1,0 +1,79 @@
+.CarDetail{
+    width: 100%;
+    max-height: 10rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    .Car-header{
+        display: flex;
+        width: 100%;
+        height: 1rem;
+        justify-content: space-between;
+        padding: 0 0.3rem;
+        box-sizing: border-box;
+        align-items: center;
+        flex-shrink: 0;
+        // border-bottom: 1px solid #ccc;
+        background: #e9e9e9;
+        .CarTit{
+            font-size: 0.5rem;
+            font-weight: 800;
+        }
+        p{
+            i.iconfont{
+                font-size: 0.56rem;
+            }
+        }
+    }
+    .menuCarList{
+        width: 100%;
+        flex:1;
+        overflow-y: auto;
+        li{
+            width: 100%;
+            display: flex;
+            border-bottom: 1px dashed #ccc;
+            span{
+                flex:1;
+                display: flex;
+                padding: 0.3rem;
+                justify-content: flex-end;
+                box-sizing: border-box;
+                &>p{
+                    padding: 0 0.5rem;
+                }
+                .btn{
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    border-radius: 50%;
+                    background: #2395ff;
+                    text-align: center;
+                   
+                    span{
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                        padding: 0;
+                        margin: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                       
+                    }
+                }
+                
+            }
+            &>span:nth-child(1){
+                justify-content: flex-start;
+                padding-left: 0.3rem;
+                box-sizing: border-box;
+                flex:2;
+                text-overflow: ellipsis;
+                overflow:hidden;
+                white-space: nowrap;
+            }
+        }
+    }
+}

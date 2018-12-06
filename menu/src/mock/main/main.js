@@ -1,12 +1,7 @@
 import Mock from 'mockjs';
 
 const mainData = Mock.mock('/mainData', {
-    "bought_list": {
-        "food_ids": [],
-        "grey_icon_url": "b571e9375597c7dd8e5b7bd32120928epng",
-        "icon_url": "db75a248a885c94c389b5bbc5c8d876apng",
-        "text": "买过"
-    },
+
     "menu": [
         {
             "activity": null,
@@ -23,7 +18,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "32b3f9e3218c41d78ec33b308cdcafa5png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528376091798",
+                    "item_id": "5283760917981",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 166,
@@ -78,7 +73,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "ad7e160b9457abf5dd9765078ece829bpng",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528358487190",
+                    "item_id": "5283584871901",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 130,
@@ -127,13 +122,13 @@ const mainData = Mock.mock('/mainData', {
                     "attributes": [],
                     "attrs": [],
                     "brand": null,
-                    "category_id": 545825517,
+                    "category_id": 5458255171,
                     "cold_box": null,
                     "description": "每份120克左右，肥瘦相间，口感肥而不腻。\n",
                     "image_path": "404f937613874bda10b510cd39e4c375png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528358467734",
+                    "item_id": "5283584677341",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 83,
@@ -188,7 +183,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "7e94b02e6257104ac124dbdaa63f2a00png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528385063062",
+                    "item_id": "5283850630621",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 70,
@@ -243,7 +238,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "83542ee6ac4ef09c9b28b76d6af39dd3png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528376090774",
+                    "item_id": "5283760907741",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 58,
@@ -353,7 +348,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "7be97d3ba1648089e5afa9abd5df8b70png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528366817430",
+                    "item_id": "5283668174301",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 53,
@@ -408,7 +403,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "cf84a36f904b77ea133f3d2de56c6ebdjpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528638018710",
+                    "item_id": "5286380187101",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 52,
@@ -463,7 +458,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "2439cb127d3cfcc734a16547bd3ad73fpng",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528361747606",
+                    "item_id": "5283617476061",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 41,
@@ -518,7 +513,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "d1cc2f785cc27109481eedeccfc424c4png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528380760214",
+                    "item_id": "5283807602141",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 26,
@@ -572,6 +567,7 @@ const mainData = Mock.mock('/mainData', {
             "name": "热销",
             "type": 2
         },
+
         {
             "activity": null,
             "description": "美味又实惠，大家快来抢",
@@ -613,7 +609,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "b0f8b9e5039ddd66a7646d2665568cd1png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528371412118",
+                    "item_id": "5283714121181",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 26,
@@ -720,7 +716,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "34d587a1b6c15dede4ef682e5bdbe507jpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528623981718",
+                    "item_id": "5286239817181",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 39,
@@ -862,7 +858,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "a4b475d7285cd7144ebd80845afaec3djpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528633009302",
+                    "item_id": "5286330093021",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 17,
@@ -1004,7 +1000,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "3588e39208b96c96ae0fb4f973c74812jpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528619221142",
+                    "item_id": "5286192211412",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 12,
@@ -1151,7 +1147,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "b4c0ec8ceeaf9dfb5ef7ea659dade31ajpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528633010326",
+                    "item_id": "5286330103261",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 18,
@@ -1298,7 +1294,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "627b24e4f9dc0062bafb3deade4909a1jpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528628526230",
+                    "item_id": "5286285262301",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 25,
@@ -1440,7 +1436,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "101543678ec6802eee798ccd48c16264jpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528642494614",
+                    "item_id": "5286424946141",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 8,
@@ -1582,7 +1578,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "cc0e5ce5311ba6e59a11f46105ed0dc4jpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528638008470",
+                    "item_id": "5286380084701",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 6,
@@ -1729,7 +1725,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "3e7d73c26ee93b236b86d89cfedd71b3jpeg",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528628536470",
+                    "item_id": "5286285364701",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 13,
@@ -1876,7 +1872,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "929c85842a00f8f778326d9b64858639png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528358462614",
+                    "item_id": "5283584626141",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 19,
@@ -2023,7 +2019,7 @@ const mainData = Mock.mock('/mainData', {
                     "image_path": "e36eaf4974135cd3ee2581b012184b80png",
                     "is_essential": false,
                     "is_featured": 0,
-                    "item_id": "528623984790",
+                    "item_id": "5286239847901",
                     "limitation": {},
                     "min_purchase": 1,
                     "month_sales": 6,
@@ -4998,6 +4994,130 @@ const mainData = Mock.mock('/mainData', {
             "is_activity": false,
             "is_selected": false,
             "name": "辣！重庆老火锅套餐",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 545046441,
+                    "cold_box": null,
+                    "description": "一套锅具（锅+漏勺）、一个无色无味环保燃油（可烧100分钟）",
+                    "image_path": "45ce26cb83a369ec6186503004452cfapng",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "520297253524",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 24,
+                    "name": "锅具+燃油一套",
+                    "photos": [
+                        "45ce26cb83a369ec6186503004452cfapng"
+                    ],
+                    "rating": 4.43,
+                    "rating_count": 7,
+                    "restaurant_id": 167539959,
+                    "satisfy_count": 7,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 971796250,
+                            "is_essential": false,
+                            "item_id": "520297253524",
+                            "name": "锅具+燃油一套",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "guoju+ranyouyitao",
+                            "price": 38,
+                            "promotion_stock": -1,
+                            "recent_popularity": 24,
+                            "recent_rating": 4.43,
+                            "restaurant_id": 167539959,
+                            "sku_id": "595452235412",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9964,
+                            "virtual_food_id": 911643546,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "7评价 月售24份",
+                    "type": null,
+                    "video": null,
+                    "virtual_food_id": 911643546
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 545046441,
+                    "cold_box": null,
+                    "description": "四头加料环保燃油，可燃烧100分钟左右",
+                    "image_path": "ad7e160b9457abf5dd9765078ece829bpng",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "520288168596",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 117,
+                    "name": "燃油罐",
+                    "photos": [
+                        "ad7e160b9457abf5dd9765078ece829bpng"
+                    ],
+                    "rating": 4.3,
+                    "rating_count": 10,
+                    "restaurant_id": 167539959,
+                    "satisfy_count": 10,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 971765461,
+                            "is_essential": false,
+                            "item_id": "520288168596",
+                            "name": "燃油罐",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "ranyouguan",
+                            "price": 10,
+                            "promotion_stock": -1,
+                            "recent_popularity": 117,
+                            "recent_rating": 4.3,
+                            "restaurant_id": 167539959,
+                            "sku_id": "595469738644",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9826,
+                            "virtual_food_id": 911643549,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "10评价 月售117份",
+                    "type": null,
+                    "video": null,
+                    "virtual_food_id": 911643549
+                }
+            ],
+            "global_id": "58817224340",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 545046441,
+            "is_activity": false,
+            "is_selected": false,
+            "name": "锅具燃料",
             "type": 1
         },
         {
@@ -9033,130 +9153,6 @@ const mainData = Mock.mock('/mainData', {
                     "attributes": [],
                     "attrs": [],
                     "brand": null,
-                    "category_id": 545820632,
-                    "cold_box": null,
-                    "description": "一套锅具（锅+漏勺）、一个无色无味环保燃油（可烧100分钟）\n",
-                    "image_path": "45ce26cb83a369ec6186503004452cfapng",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528358485142",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 33,
-                    "name": "锅具+燃油一套",
-                    "photos": [
-                        "45ce26cb83a369ec6186503004452cfapng"
-                    ],
-                    "rating": 4.67,
-                    "rating_count": 3,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 3,
-                    "satisfy_rate": 100,
-                    "scheme": null,
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983058000,
-                            "is_essential": false,
-                            "item_id": "528358485142",
-                            "name": "锅具+燃油一套",
-                            "original_price": null,
-                            "packing_fee": 0,
-                            "partial_reduce_activity_id": null,
-                            "pinyin_name": "guoju+ranyouyitao",
-                            "price": 38,
-                            "promotion_stock": -1,
-                            "recent_popularity": 33,
-                            "recent_rating": 4.67,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607016840342",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 8164,
-                            "virtual_food_id": 919524531,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "3评价 月售33份",
-                    "type": null,
-                    "video": null,
-                    "virtual_food_id": 919524531
-                },
-                {
-                    "activity": null,
-                    "attributes": [],
-                    "attrs": [],
-                    "brand": null,
-                    "category_id": 545820632,
-                    "cold_box": null,
-                    "description": "四头加料环保燃油，可燃烧100分钟左右",
-                    "image_path": "ad7e160b9457abf5dd9765078ece829bpng",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528358487190",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 130,
-                    "name": "燃油罐",
-                    "photos": [
-                        "ad7e160b9457abf5dd9765078ece829bpng"
-                    ],
-                    "rating": 4.56,
-                    "rating_count": 9,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 9,
-                    "satisfy_rate": 100,
-                    "scheme": null,
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983053659,
-                            "is_essential": false,
-                            "item_id": "528358487190",
-                            "name": "燃油罐",
-                            "original_price": null,
-                            "packing_fee": 0,
-                            "partial_reduce_activity_id": null,
-                            "pinyin_name": "ranyouguan",
-                            "price": 10,
-                            "promotion_stock": -1,
-                            "recent_popularity": 130,
-                            "recent_rating": 4.56,
-                            "restaurant_id": 168019429,
-                            "sku_id": "606996993174",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 3065,
-                            "virtual_food_id": 919524533,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "9评价 月售130份",
-                    "type": null,
-                    "video": null,
-                    "virtual_food_id": 919524533
-                }
-            ],
-            "global_id": "59589993622",
-            "grey_icon_url": "",
-            "icon_url": "",
-            "id": 545820632,
-            "is_activity": false,
-            "is_selected": false,
-            "name": "锅具燃料",
-            "type": 1
-        },
-        {
-            "activity": null,
-            "description": "",
-            "foods": [
-                {
-                    "activity": null,
-                    "attributes": [],
-                    "attrs": [],
-                    "brand": null,
                     "category_id": 545830335,
                     "cold_box": null,
                     "description": "500ml",
@@ -11435,1496 +11431,6 @@ const mainData = Mock.mock('/mainData', {
             "type": 1
         }
     ],
-    "recommend": [
-        {
-            "items": [
-                {
-                    "activity": {
-                        "activity_type": "",
-                        "applicable_quantity": 10000,
-                        "applicable_quantity_detail_text": "每单限10000份优惠，超出的分数按原价计算",
-                        "applicable_quantity_text": "",
-                        "applicable_quantity_text_color": "eb6551",
-                        "benefit_text": "7.5折",
-                        "description": "单品折扣",
-                        "discount": 0.75,
-                        "fixed_price": -1,
-                        "icon_color": "eb6551",
-                        "icon_name": "折",
-                        "id": 1746395329,
-                        "image_text": "折",
-                        "image_text_color": "#FAA43C",
-                        "is_exclusive": 0,
-                        "is_price_changed": false,
-                        "is_promotion_toast_popup": true,
-                        "max_quantity": 10000,
-                        "minimum_delivery_rule": 1,
-                        "must_super_vip": false,
-                        "name": "单品折扣",
-                        "quantity_condition": 1,
-                        "quantity_text": "",
-                        "sum_condition": 0
-                    },
-                    "attributes": [],
-                    "attrs": [
-                        {
-                            "name": "酱料一",
-                            "values": [
-                                "特制麻酱",
-                                "油碟",
-                                "牛肉味香辣酱",
-                                "沙茶酱",
-                                "海鲜酱"
-                            ]
-                        },
-                        {
-                            "name": "酱料二",
-                            "values": [
-                                "牛肉味香辣酱",
-                                "特制麻酱",
-                                "油碟",
-                                "海鲜酱",
-                                "沙茶酱"
-                            ]
-                        }
-                    ],
-                    "brand": {
-                        "attrs2": [
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料一"
-                            },
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料二"
-                            }
-                        ],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59644700822,
-                    "description": "99元『无锅』套餐包含：\n+澳洲雪花牛肉\n+一级羔羊肉\n+精品羊肉\n+蔬菜拼盘\n+手工拉面\n+酱料2份（可自选，五选二）\n+锅底＋燃油灌（可燃100分钟左右）\n+矿泉水+小零食+薄荷糖+围裙2+餐具2\n+小料（蒜泥、香菜、葱花、小米椒）+酱油＋醋",
-                    "image_path": "101543678ec6802eee798ccd48c16264jpeg",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528642494614",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 8,
-                    "name": "『无锅』骨汤锅底/套餐",
-                    "photos": [
-                        "101543678ec6802eee798ccd48c16264jpeg"
-                    ],
-                    "rating": 4.5,
-                    "rating_count": 4,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 4,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983388480&restaurant_id=E12542598379172172191&category_id=59644700822",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983388480,
-                            "is_essential": false,
-                            "item_id": "528642494614",
-                            "name": "『无锅』骨汤锅底/套餐",
-                            "original_price": 99,
-                            "packing_fee": 0,
-                            "pinyin_name": "『wuguo』gutangguodi/taocan",
-                            "price": 74.25,
-                            "promotion_stock": 9992,
-                            "recent_popularity": 8,
-                            "recent_rating": 4.5,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607353086102",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9992,
-                            "virtual_food_id": 919775801,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "4评价 月售8份",
-                    "type": 0,
-                    "virtual_food_id": 919775801
-                },
-                {
-                    "attributes": [],
-                    "attrs": [
-                        {
-                            "name": "酱料一",
-                            "values": [
-                                "特制麻酱",
-                                "油碟",
-                                "牛肉味香辣酱",
-                                "沙茶酱",
-                                "海鲜酱"
-                            ]
-                        },
-                        {
-                            "name": "酱料二",
-                            "values": [
-                                "牛肉味香辣酱",
-                                "特制麻酱",
-                                "油碟",
-                                "海鲜酱",
-                                "沙茶酱"
-                            ]
-                        }
-                    ],
-                    "brand": {
-                        "attrs2": [
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料一"
-                            },
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料二"
-                            }
-                        ],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59629736086,
-                    "description": "99元经典『送锅』套餐包含：\n+澳洲雪花牛肉\n+精品羊肉\n+蔬菜拼盘\n+手工拉面\n+酱料2份（可自选，五选二）\n+锅底＋燃油灌（可燃100分钟左右）\n+矿泉水+小零食+薄荷糖+围裙2+餐具2\n+小料（蒜泥、香菜、葱花、小米椒）+酱油＋醋",
-                    "image_path": "8c8213779ecbe6eef1562a53666710e7jpeg",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528642502806",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 13,
-                    "name": "锅sir【小火锅】清油麻辣『送锅』套餐",
-                    "photos": [
-                        "8c8213779ecbe6eef1562a53666710e7jpeg"
-                    ],
-                    "rating": 4,
-                    "rating_count": 3,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 3,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983375519&restaurant_id=E12542598379172172191&category_id=59629736086",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983375519,
-                            "is_essential": false,
-                            "item_id": "528642502806",
-                            "name": "锅sir【小火锅】清油麻辣『送锅』套餐",
-                            "packing_fee": 0,
-                            "pinyin_name": "guosir【xiaohuoguo】qingyoumala『songguo』taocan",
-                            "price": 99,
-                            "promotion_stock": -1,
-                            "recent_popularity": 13,
-                            "recent_rating": 4,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607340806294",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9986,
-                            "virtual_food_id": 919783762,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "3评价 月售13份",
-                    "type": 0,
-                    "virtual_food_id": 919783762
-                },
-                {
-                    "activity": {
-                        "activity_type": "",
-                        "applicable_quantity": 10000,
-                        "applicable_quantity_detail_text": "每单限10000份优惠，超出的分数按原价计算",
-                        "applicable_quantity_text": "",
-                        "applicable_quantity_text_color": "eb6551",
-                        "benefit_text": "7.5折",
-                        "description": "单品折扣",
-                        "discount": 0.75,
-                        "fixed_price": -1,
-                        "icon_color": "eb6551",
-                        "icon_name": "折",
-                        "id": 1746395353,
-                        "image_text": "折",
-                        "image_text_color": "#FAA43C",
-                        "is_exclusive": 0,
-                        "is_price_changed": false,
-                        "is_promotion_toast_popup": true,
-                        "max_quantity": 10000,
-                        "minimum_delivery_rule": 1,
-                        "must_super_vip": false,
-                        "name": "单品折扣",
-                        "quantity_condition": 1,
-                        "quantity_text": "",
-                        "sum_condition": 0
-                    },
-                    "attributes": [
-                        {
-                            "icon_color": "ec9c68",
-                            "icon_name": "招牌"
-                        }
-                    ],
-                    "attrs": [
-                        {
-                            "name": "酱料一",
-                            "values": [
-                                "特制麻酱",
-                                "海鲜酱",
-                                "沙茶酱",
-                                "牛肉味香辣酱",
-                                "油碟"
-                            ]
-                        },
-                        {
-                            "name": "酱料二",
-                            "values": [
-                                "特制麻酱",
-                                "海鲜酱",
-                                "沙茶酱",
-                                "牛肉味香辣酱",
-                                "油碟"
-                            ]
-                        }
-                    ],
-                    "brand": {
-                        "attrs2": [
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料一"
-                            },
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料二"
-                            }
-                        ],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59584985238,
-                    "description": "109元『无锅』套餐包含：\n+澳洲雪花牛肉\n+一级羔羊肉\n+精品羊肉\n+蔬菜拼盘\n+手工拉面\n+酱料2份（可自选，五选二）\n+锅底＋燃油灌（可燃100分钟左右）\n+矿泉水+小零食+薄荷糖+围裙2+餐具2\n+小料（蒜泥、香菜、葱花、小米椒）+酱油＋醋",
-                    "image_path": "929c85842a00f8f778326d9b64858639png",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528358462614",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 19,
-                    "name": "辣！辣！辣！重庆老火锅超值『无锅』套餐",
-                    "photos": [
-                        "929c85842a00f8f778326d9b64858639png"
-                    ],
-                    "rating": 4.2,
-                    "rating_count": 5,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 5,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983066829&restaurant_id=E12542598379172172191&category_id=59584985238",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983066829,
-                            "is_essential": false,
-                            "item_id": "528358462614",
-                            "name": "辣！辣！辣！重庆老火锅超值『无锅』套餐",
-                            "original_price": 109,
-                            "packing_fee": 0,
-                            "pinyin_name": "la！la！la！chongqinglaohuoguochaozhi『wuguo』taocan",
-                            "price": 81.75,
-                            "promotion_stock": 9934,
-                            "recent_popularity": 19,
-                            "recent_rating": 4.2,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607024767126",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9934,
-                            "virtual_food_id": 919510564,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "5评价 月售19份",
-                    "type": 0,
-                    "virtual_food_id": 919510564
-                },
-                {
-                    "attributes": [],
-                    "attrs": [],
-                    "brand": {
-                        "attrs2": [],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59589993622,
-                    "description": "一套锅具（锅+漏勺）、一个无色无味环保燃油（可烧100分钟）\n",
-                    "image_path": "45ce26cb83a369ec6186503004452cfapng",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528358485142",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 33,
-                    "name": "锅具+燃油一套",
-                    "photos": [
-                        "45ce26cb83a369ec6186503004452cfapng"
-                    ],
-                    "rating": 4.67,
-                    "rating_count": 3,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 3,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983058000&restaurant_id=E12542598379172172191&category_id=59589993622",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983058000,
-                            "is_essential": false,
-                            "item_id": "528358485142",
-                            "name": "锅具+燃油一套",
-                            "packing_fee": 0,
-                            "pinyin_name": "guoju+ranyouyitao",
-                            "price": 38,
-                            "promotion_stock": -1,
-                            "recent_popularity": 33,
-                            "recent_rating": 4.67,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607016840342",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 8164,
-                            "virtual_food_id": 919524531,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "3评价 月售33份",
-                    "type": 0,
-                    "virtual_food_id": 919524531
-                },
-                {
-                    "activity": {
-                        "activity_type": "",
-                        "applicable_quantity": 10000,
-                        "applicable_quantity_detail_text": "每单限10000份优惠，超出的分数按原价计算",
-                        "applicable_quantity_text": "",
-                        "applicable_quantity_text_color": "eb6551",
-                        "benefit_text": "7.5折",
-                        "description": "单品折扣",
-                        "discount": 0.75,
-                        "fixed_price": -1,
-                        "icon_color": "eb6551",
-                        "icon_name": "折",
-                        "id": 1746395297,
-                        "image_text": "折",
-                        "image_text_color": "#FAA43C",
-                        "is_exclusive": 0,
-                        "is_price_changed": false,
-                        "is_promotion_toast_popup": true,
-                        "max_quantity": 10000,
-                        "minimum_delivery_rule": 1,
-                        "must_super_vip": false,
-                        "name": "单品折扣",
-                        "quantity_condition": 1,
-                        "quantity_text": "",
-                        "sum_condition": 0
-                    },
-                    "attributes": [],
-                    "attrs": [
-                        {
-                            "name": "酱料一",
-                            "values": [
-                                "特制麻酱",
-                                "油碟",
-                                "牛肉味香辣酱",
-                                "沙茶酱",
-                                "海鲜酱"
-                            ]
-                        },
-                        {
-                            "name": "酱料二",
-                            "values": [
-                                "牛肉味香辣酱",
-                                "特制麻酱",
-                                "油碟",
-                                "海鲜酱",
-                                "沙茶酱"
-                            ]
-                        }
-                    ],
-                    "brand": {
-                        "attrs2": [
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料一"
-                            },
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料二"
-                            }
-                        ],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59629736086,
-                    "description": "99元经典『送锅』套餐包含：\n+澳洲雪花牛肉\n+精品羊肉\n+蔬菜拼盘\n+手工拉面\n＋麻酱2包（可换油碟+其他酱料）\n+锅底＋燃油灌（可燃100分钟左右）\n+矿泉水+小零食+薄荷糖+围裙2+餐具2\n+小料（蒜泥、香菜、葱花、小米椒）+酱油＋醋",
-                    "image_path": "3588e39208b96c96ae0fb4f973c74812jpeg",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528619221142",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 12,
-                    "name": "锅sir【小火锅】野生菌菇『送锅』套餐",
-                    "photos": [
-                        "3588e39208b96c96ae0fb4f973c74812jpeg"
-                    ],
-                    "rating": 4.5,
-                    "rating_count": 4,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 4,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983401268&restaurant_id=E12542598379172172191&category_id=59629736086",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983401268,
-                            "is_essential": false,
-                            "item_id": "528619221142",
-                            "name": "锅sir【小火锅】野生菌菇『送锅』套餐",
-                            "original_price": 99,
-                            "packing_fee": 0,
-                            "pinyin_name": "guosir【xiaohuoguo】yeshengjungu『songguo』taocan",
-                            "price": 74.25,
-                            "promotion_stock": 9988,
-                            "recent_popularity": 12,
-                            "recent_rating": 4.5,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607358318742",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9988,
-                            "virtual_food_id": 919762058,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "4评价 月售12份",
-                    "type": 0,
-                    "virtual_food_id": 919762058
-                },
-                {
-                    "attributes": [],
-                    "attrs": [],
-                    "brand": {
-                        "attrs2": [],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59639609494,
-                    "description": "每份约23克左右，养颜滋补佳品，火锅必备食材。",
-                    "image_path": "a6d5a74db469848a33886b8008ca27cdjpeg",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528633012374",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 15,
-                    "name": "竹笙/竹荪",
-                    "photos": [
-                        "a6d5a74db469848a33886b8008ca27cdjpeg"
-                    ],
-                    "rating": 4,
-                    "rating_count": 1,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 1,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983388483&restaurant_id=E12542598379172172191&category_id=59639609494",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983388483,
-                            "is_essential": false,
-                            "item_id": "528633012374",
-                            "name": "竹笙/竹荪",
-                            "packing_fee": 0,
-                            "pinyin_name": "zhusheng/zhusun",
-                            "price": 22,
-                            "promotion_stock": -1,
-                            "recent_popularity": 15,
-                            "recent_rating": 4,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607340792982",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9983,
-                            "virtual_food_id": 919783753,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "1评价 月售15份",
-                    "type": 0,
-                    "virtual_food_id": 919783753
-                },
-                {
-                    "activity": {
-                        "activity_type": "",
-                        "applicable_quantity": 10000,
-                        "applicable_quantity_detail_text": "每单限10000份优惠，超出的分数按原价计算",
-                        "applicable_quantity_text": "",
-                        "applicable_quantity_text_color": "eb6551",
-                        "benefit_text": "7.5折",
-                        "description": "单品折扣",
-                        "discount": 0.75,
-                        "fixed_price": -1,
-                        "icon_color": "eb6551",
-                        "icon_name": "折",
-                        "id": 1746395289,
-                        "image_text": "折",
-                        "image_text_color": "#FAA43C",
-                        "is_exclusive": 0,
-                        "is_price_changed": false,
-                        "is_promotion_toast_popup": true,
-                        "max_quantity": 10000,
-                        "minimum_delivery_rule": 1,
-                        "must_super_vip": false,
-                        "name": "单品折扣",
-                        "quantity_condition": 1,
-                        "quantity_text": "",
-                        "sum_condition": 0
-                    },
-                    "attributes": [],
-                    "attrs": [
-                        {
-                            "name": "酱料一",
-                            "values": [
-                                "特制麻酱",
-                                "油碟",
-                                "牛肉味香辣酱",
-                                "沙茶酱",
-                                "海鲜酱"
-                            ]
-                        },
-                        {
-                            "name": "酱料二",
-                            "values": [
-                                "牛肉味香辣酱",
-                                "特制麻酱",
-                                "油碟",
-                                "海鲜酱",
-                                "沙茶酱"
-                            ]
-                        }
-                    ],
-                    "brand": {
-                        "attrs2": [
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料一"
-                            },
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料二"
-                            }
-                        ],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59629736086,
-                    "description": "99元经典『送锅』套餐包含：\n+澳洲雪花牛肉\n+精品羊肉\n+蔬菜拼盘\n+手工拉面\n+酱料2份（可自选，五选二）\n+锅底＋燃油灌（可燃100分钟左右）\n+矿泉水+小零食+薄荷糖+围裙2+餐具2\n+小料（蒜泥、香菜、葱花、小米椒）+酱油＋醋",
-                    "image_path": "a4b475d7285cd7144ebd80845afaec3djpeg",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528633009302",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 17,
-                    "name": "锅sir【小火锅】骨汤『送锅』套餐",
-                    "photos": [
-                        "a4b475d7285cd7144ebd80845afaec3djpeg"
-                    ],
-                    "rating": 5,
-                    "rating_count": 1,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 1,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983383657&restaurant_id=E12542598379172172191&category_id=59629736086",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983383657,
-                            "is_essential": false,
-                            "item_id": "528633009302",
-                            "name": "锅sir【小火锅】骨汤『送锅』套餐",
-                            "original_price": 99,
-                            "packing_fee": 0,
-                            "pinyin_name": "guosir【xiaohuoguo】gutang『songguo』taocan",
-                            "price": 74.25,
-                            "promotion_stock": 9982,
-                            "recent_popularity": 17,
-                            "recent_rating": 5,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607353083030",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9982,
-                            "virtual_food_id": 919762057,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "1评价 月售17份",
-                    "type": 0,
-                    "virtual_food_id": 919762057
-                },
-                {
-                    "activity": {
-                        "activity_type": "",
-                        "applicable_quantity": 10000,
-                        "applicable_quantity_detail_text": "每单限10000份优惠，超出的分数按原价计算",
-                        "applicable_quantity_text": "",
-                        "applicable_quantity_text_color": "eb6551",
-                        "benefit_text": "7.5折",
-                        "description": "单品折扣",
-                        "discount": 0.75,
-                        "fixed_price": -1,
-                        "icon_color": "eb6551",
-                        "icon_name": "折",
-                        "id": 1746395337,
-                        "image_text": "折",
-                        "image_text_color": "#FAA43C",
-                        "is_exclusive": 0,
-                        "is_price_changed": false,
-                        "is_promotion_toast_popup": true,
-                        "max_quantity": 10000,
-                        "minimum_delivery_rule": 1,
-                        "must_super_vip": false,
-                        "name": "单品折扣",
-                        "quantity_condition": 1,
-                        "quantity_text": "",
-                        "sum_condition": 0
-                    },
-                    "attributes": [],
-                    "attrs": [
-                        {
-                            "name": "酱料一",
-                            "values": [
-                                "特制麻酱",
-                                "油碟",
-                                "牛肉味香辣酱",
-                                "沙茶酱",
-                                "海鲜酱"
-                            ]
-                        },
-                        {
-                            "name": "酱料二",
-                            "values": [
-                                "牛肉味香辣酱",
-                                "特制麻酱",
-                                "油碟",
-                                "海鲜酱",
-                                "沙茶酱"
-                            ]
-                        }
-                    ],
-                    "brand": {
-                        "attrs2": [
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料一"
-                            },
-                            {
-                                "details": [
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "牛肉味香辣酱",
-                                        "photo_hash": "",
-                                        "selected": true
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "特制麻酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "油碟",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "海鲜酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    },
-                                    {
-                                        "linkage_photo_hash": "",
-                                        "name": "沙茶酱",
-                                        "photo_hash": "",
-                                        "selected": false
-                                    }
-                                ],
-                                "linkage_status": 0,
-                                "name": "酱料二"
-                            }
-                        ],
-                        "ingredient_info": null,
-                        "show_photo_type": 0,
-                        "specifications2": [],
-                        "sub_items": []
-                    },
-                    "category_id": 59644700822,
-                    "description": "99元『无锅』套餐包含：\n+澳洲雪花牛肉\n+一级羔羊肉\n+精品羊肉\n+蔬菜拼盘\n+手工拉面\n+酱料2份（可自选，五选二）\n+锅底＋燃油灌（可燃100分钟左右）\n+矿泉水+小零食+薄荷糖+围裙2+餐具2\n+小料（蒜泥、香菜、葱花、小米椒）+酱油＋醋",
-                    "image_path": "cc0e5ce5311ba6e59a11f46105ed0dc4jpeg",
-                    "is_essential": false,
-                    "is_featured": 0,
-                    "item_id": "528638008470",
-                    "limitation": {},
-                    "min_purchase": 1,
-                    "month_sales": 6,
-                    "name": "『无锅』野生菌菇锅底/套餐",
-                    "photos": [
-                        "cc0e5ce5311ba6e59a11f46105ed0dc4jpeg"
-                    ],
-                    "rating": 5,
-                    "rating_count": 1,
-                    "restaurant_id": 168019429,
-                    "satisfy_count": 1,
-                    "satisfy_rate": 100,
-                    "scheme": "eleme://catering?target_food_id=983396282&restaurant_id=E12542598379172172191&category_id=59644700822",
-                    "specfoods": [
-                        {
-                            "checkout_mode": 1,
-                            "food_id": 983396282,
-                            "is_essential": false,
-                            "item_id": "528638008470",
-                            "name": "『无锅』野生菌菇锅底/套餐",
-                            "original_price": 99,
-                            "packing_fee": 0,
-                            "pinyin_name": "『wuguo』yeshengjunguguodi/taocan",
-                            "price": 74.25,
-                            "promotion_stock": 9994,
-                            "recent_popularity": 6,
-                            "recent_rating": 5,
-                            "restaurant_id": 168019429,
-                            "sku_id": "607336093846",
-                            "sold_out": false,
-                            "specs": [],
-                            "stock": 9994,
-                            "virtual_food_id": 919788597,
-                            "weight": 0
-                        }
-                    ],
-                    "specifications": [],
-                    "tips": "1评价 月售6份",
-                    "type": 0,
-                    "virtual_food_id": 919788597
-                }
-            ],
-            "name": "商家推荐",
-            "window_type": 0
-        }
-    ],
-    "redpack": [
-        {
-            "description": "8元无门槛红包",
-            "status": 0,
-            "sub_title": "超级会员红包",
-            "title": "无门槛",
-            "title_detail": "无门槛",
-            "type": 1,
-            "value": "8"
-        },
-        {
-            "description": "5元专享红包",
-            "has_multi_hongbao": false,
-            "status": 0,
-            "sub_title": "店铺专享红包",
-            "title": "店铺",
-            "title_detail": "满5可用",
-            "type": 0,
-            "value": "5"
-        }
-    ],
-    "rst": {
-        "act_tag": 0,
-        "activities": [
-            {
-                "attribute": "{\"120\": {\"1\": 55.0, \"0\": 0}, \"255\": {\"1\": 120.0, \"0\": 0}, \"395\": {\"1\": 165.0, \"0\": 0}, \"175\": {\"1\": 90.0, \"0\": 0}}",
-                "description": "满120减55，满175减90，满255减120，满395减165",
-                "icon_color": "f07373",
-                "icon_name": "满减",
-                "id": 1776188306,
-                "is_exclusive_with_food_activity": true,
-                "name": "长沙西安火锅",
-                "tips": "满120减55，满175减90，满255减120，满395减165",
-                "type": 102
-            },
-            {
-                "attribute": "17.0",
-                "description": "新用户下单立减17元(不与其它活动同享)",
-                "icon_color": "70bc46",
-                "icon_name": "首单",
-                "id": 1677862169,
-                "is_exclusive_with_food_activity": true,
-                "name": "新用户立减(不与其他活动共享)",
-                "tips": "新用户下单立减17元(不与其它活动同享)",
-                "type": 103
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746726049,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395313,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395297,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395337,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395329,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395361,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395281,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395289,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395273,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395321,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "description": "单品折扣",
-                "icon_color": "f07373",
-                "icon_name": "折扣",
-                "id": 1746395353,
-                "name": "单品折扣",
-                "tips": "单品折扣"
-            },
-            {
-                "attribute": "{\"88.0\": {\"quantity\": 1, \"must_pay_online\": 1, \"name\": \"\\u53bb\\u5473\\u55b7\\u96fe\\u5242\"}}",
-                "description": "满88元赠送去味喷雾剂1份",
-                "icon_color": "3cc791",
-                "icon_name": "满赠",
-                "id": 603915690,
-                "is_exclusive_with_food_activity": true,
-                "name": "自营销赠品活动",
-                "tips": "满88元赠送去味喷雾剂1份",
-                "type": 106
-            },
-            {
-                "attribute": "3.0",
-                "description": "本店新用户立减3元",
-                "icon_color": "00b762",
-                "icon_name": "新客",
-                "id": 603913130,
-                "is_exclusive_with_food_activity": true,
-                "name": "门店新客立减",
-                "tips": "本店新用户立减3元",
-                "type": 108
-            }
-        ],
-        "address": "北京市朝阳区百子湾东里306号楼1层306-02-02",
-        "albums": [
-            {
-                "count": 1,
-                "cover_image_hash": "8daf803b827cce4b6af41d0bb5102f10jpeg",
-                "name": "门面",
-                "photos": [
-                    {
-                        "id": 93537602,
-                        "image_hash": "8daf803b827cce4b6af41d0bb5102f10jpeg",
-                        "type": "FRONT"
-                    }
-                ]
-            },
-            {
-                "count": 1,
-                "cover_image_hash": "46726b8b755c201c278e5c8a4b0c88f1jpeg",
-                "name": "大堂",
-                "photos": [
-                    {
-                        "id": 93537594,
-                        "image_hash": "46726b8b755c201c278e5c8a4b0c88f1jpeg",
-                        "type": "HALL"
-                    }
-                ]
-            }
-        ],
-        "authentic_id": 4363947256295729,
-        "business_info": "{\"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"120减55\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"175减90\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"255减120\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"395减165\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"a25c03\", \"text\": \"8元会员红包\", \"border\": \"4ca25c03\", \"background\": null, \"type\": 2, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减17\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"门店新客减3\", \"border\": \"4ce23028\", \"background\": null, \"type\": 6, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"5折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"领5元红包\", \"border\": \"4ce23028\", \"background\": null, \"type\": 8, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"返红包\", \"border\": \"4ce23028\", \"background\": null, \"type\": 9, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"赠\", \"border\": \"4ce23028\", \"background\": null, \"type\": 10, \"icon\": null}]}",
-        "delivery_fee_discount": 0,
-        "delivery_mode": {
-            "border": "FFFFFF",
-            "color": "",
-            "id": 2,
-            "is_solid": true,
-            "text": "商家配送",
-            "text_color": "FFFFFF"
-        },
-        "description": "",
-        "distance": 10006,
-        "favored": false,
-        "flavors": [
-            {
-                "id": 231,
-                "name": "火锅烤鱼"
-            },
-            {
-                "id": 237,
-                "name": "地方小吃"
-            }
-        ],
-        "float_delivery_fee": 25,
-        "float_minimum_order_amount": 20,
-        "has_story": false,
-        "id": "E12542598379172172191",
-        "image_path": "5f4e0639725e12019a9cb6f455f65248png",
-        "is_new": false,
-        "is_premium": true,
-        "is_star": false,
-        "is_stock_empty": 0,
-        "is_valid": 1,
-        "latitude": 39.895855,
-        "longitude": 116.504242,
-        "max_applied_quantity_per_order": -1,
-        "name": "锅sir时尚火锅(百子店)",
-        "next_business_time": "明天 10:00",
-        "only_use_poi": false,
-        "opening_hours": [
-            "10:00/24:00"
-        ],
-        "order_lead_time": 52,
-        "out_of_range": false,
-        "phone": "13691487088",
-        "piecewise_agent_fee": {
-            "description": "配送费¥25",
-            "extra_fee": 0,
-            "is_extra": false,
-            "no_subsidy_fee": "",
-            "rules": [
-                {
-                    "fee": 25,
-                    "price": 20
-                }
-            ],
-            "tips": "配送费¥25"
-        },
-        "platform": 0,
-        "posters": [
-            {
-                "id": 6955665,
-                "image_hash": "68403fb23883b9a7388b62c70cf8d5c7png",
-                "name": "日常",
-                "type": 3,
-                "url": "eleme://restaurant_promotion?restaurant_id=E12542598379172172191&banner_id=6955665"
-            }
-        ],
-        "promotion_info": "锅sir，努力获取每一位客人的信任！",
-        "qualification": {
-            "link": "https://h5.ele.me/shop/certification/#/?restaurant_id=E12542598379172172191"
-        },
-        "rating": 4.8,
-        "rating_count": 311,
-        "recent_order_num": 332,
-        "recommend": {
-            "is_ad": false,
-            "reason": ""
-        },
-        "recommend_reasons": [],
-        "regular_customer_count": 0,
-        "scheme": "https://h5.ele.me/shop/#id=E12542598379172172191",
-        "shop_sign": {
-            "brand_story": "",
-            "image_hash": "36314fa9882cb516bba55d1037368899png"
-        },
-        "status": 1,
-        "support_tags": [
-            {
-                "border": "dddddd",
-                "color": "666666",
-                "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
-                "text": "火锅烤鱼",
-                "type": 1
-            }
-        ],
-        "supports": [
-            {
-                "border": "90dddddd",
-                "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
-                "icon_color": "999999",
-                "icon_name": "保",
-                "id": 7,
-                "name": "食安保",
-                "text_color": "666666",
-                "two_characters_icon_name": "保险"
-            }
-        ],
-        "target_tag_path": "d53fc0cb4dc67973038cbc591938a1b6png",
-        "theme": {
-            "default_color": "2395ff",
-            "header_style": 3,
-            "hongbao_style": 0,
-            "price_color": "ff5339",
-            "third_tab_name": "商家",
-            "vanish_fields": []
-        },
-        "type": 0
-    },
-    "user": {
-        "avatar": "98bfaf0315fe5626397140ca73610fe3jpeg",
-        "balance": 0,
-        "brand_member_new": 0,
-        "column_desc": {
-            "game_desc": "玩游戏领红包",
-            "game_image_hash": "05f108ca4e0c543488799f0c7c708cb1jpeg",
-            "game_is_show": 1,
-            "game_link": "https://gamecenter.faas.ele.me",
-            "gift_mall_desc": "0元好物在这里"
-        },
-        "current_address_id": 0,
-        "current_invoice_id": 0,
-        "delivery_card_expire_days": 0,
-        "email": "",
-        "gift_amount": 0,
-        "id": 1406629834,
-        "is_active": 1,
-        "is_email_valid": false,
-        "is_mobile_valid": true,
-        "mobile": "18247113351",
-        "point": 0,
-        "real_point": 0,
-        "supervip_status": 1,
-        "user_id": 1407216554,
-        "username": "蔚晓刚00"
-    }
+
 })
 export default mainData;

@@ -6,6 +6,8 @@ import Recommend from '../../component/Recommend'
 import Preview from '../../component/Preview'
 import Menu from '../Menu'
 import Footer from '../Footer'
+import CarDetail from '../../component/CarDetail'
+import { flush } from 'redux-saga/effects';
 
 class Main extends Component {
     constructor(props) {
@@ -15,7 +17,8 @@ class Main extends Component {
             recommend: null,//商家推荐
             menu: null,//菜单
             PreviewData: null,//预览
-            shopcar: []
+            shopcar: [],
+            show:false
         }
     }
 
@@ -25,9 +28,10 @@ class Main extends Component {
             PreviewData,
             recommend,//商家推荐
             menu,//菜单
-            shopcar
+            shopcar,
+            show
         } = this.state
-        // console.log('晓', shopcar)
+        console.log('晓', menu)
         return (
             <div className='Main'>
                 <div className='Main'>
@@ -50,9 +54,29 @@ class Main extends Component {
                         menu && menu.length > 0 && <Menu menu={menu} IsMenu={this.IsMenu} mainPreview={this.mainPreview} />
                     }
                 </div>
-                <Footer shopcar={shopcar} />
+                <Footer shopcar={shopcar} ShowCar={this.ShowCar} />
+                {
+                    show ? <CarDetail site='bot' menu={menu} IsMenu={this.IsMenu}  ShowCar={this.ShowCar} clearCars={this.clearCars} /> : ''
+                }
+                
             </div>
         );
+    }
+    ShowCar =() =>{
+        //修改Mark
+        let {show} = this.state;
+        this.setState({
+            show:!show
+        })
+    }
+    clearCars = () =>{
+        //清空页面购物车
+        this.setState({
+            shopcar:[]
+        })
+        localStorage.clear('shopcar')
+        //重新请求数据 清空购物车
+        this.AxiosData()
     }
     //处理点击预览
     mainPreview = (oneKey, towKey)=>{
@@ -77,13 +101,19 @@ class Main extends Component {
                 shopcar.splice(menu[oneKey].foods[towKey], 1)
             }
         }
+        console.log(menu,'789')
+        if(shopcar.length <1){
+            this.setState({
+                show:false
+            })
+        }
         localStorage.setItem('shopcar',JSON.stringify(shopcar))
         //覆盖旧值
         this.setState({
             menu
         })
     }
-    componentDidMount() {
+    AxiosData(){
         // 数据请求
         axios('/mainData').then(res => {
             var shop = JSON.parse(localStorage.getItem('shopcar'));
@@ -92,7 +122,7 @@ class Main extends Component {
                 res.data.menu.map((v, i) => {
                     v.foods.map((val, idx) => {
                         shop.map((a, b) => {
-                            if (v.foods[idx].name == a.name) {
+                            if (v.foods[idx].item_id == a.item_id && v.foods[idx].category_id == a.category_id) {
                                  JSON.parse(JSON.stringify(res.data.menu[i].foods[idx] = a))//赋值新值
                             }
                         })
@@ -111,6 +141,9 @@ class Main extends Component {
             })
 
         })
+    }
+    componentDidMount() {
+        this.AxiosData()
     }
 }
 

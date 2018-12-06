@@ -238,7 +238,7 @@ class Menu extends Component {
             this.setState({
                 flog: 17
             })
-        } else if (e.target.scrollTop > this.refs.listTit17.offsetTop && e.target.scrollTop < this.refs.listTit18.offsetTop) {
+        } else if (1 || e.target.scrollTop > this.refs.listTit17.offsetTop && e.target.scrollTop < this.refs.listTit18.offsetTop) {
             this.setState({
                 flog: 18
             })

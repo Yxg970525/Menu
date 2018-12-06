@@ -7,27 +7,32 @@ import 'antd-mobile/dist/antd-mobile.css';
 class Footer extends Component {
     render() {
         let { shopcar }=this.props;
-        console.log(shopcar)
+        // console.log(shopcar,'000')
         return (
             <div className='footer'>
                 <div className='footGouwu'>
-                <Badge text={shopcar.length} className='FoootBadge' />
+                <Badge text={this.props.shopcar != null ?  this.props.shopcar.length : [] } className='FoootBadge' />
                 {
-                    shopcar.length > 0 ? <i className='iconfont gouwuche1'></i> : <i className='iconfont gouwuche'></i>
+                   this.props.shopcar != null ? shopcar.length > 0 ? <i className='iconfont gouwuche1' onClick={()=>this.isShow()}></i> : <i className='iconfont gouwuche'></i>:<i className='iconfont gouwuche'></i>
                 }
                     
                 </div>
                 {/* {
                     shopcar.length > 0 ? <Link to={{pathname:'/msg',query:{shopcar:shopcar}}} className='btnOk unDisbale'>确认下单</Link> : <div className='btnOk'>确认下单</div> 
                 } */}
-                <div className={shopcar.length > 0 ?'btnOk unDisbale' :'btnOk '} onClick={shopcar.length > 0 ?()=>this.goOk() :null}>确认下单</div>
+                <div className={  this.props.shopcar != null ? shopcar.length > 0 ?'btnOk unDisbale' :'btnOk ' :'btnOk'} onClick={this.props.shopcar != null ? shopcar.length > 0 ?()=>this.goOk() :null:null}>确认下单</div>
             </div>
         );
+    }
+    isShow(){
+        let {ShowCar} =this.props;
+        ShowCar()
     }
     goOk(){
         let { shopcar }=this.props;
         localStorage.setItem('shopcar',JSON.stringify(shopcar))
-        console.log(this.props.history.push('/msg'))
+        this.props.history.push('/msg')
+        // console.log(this.props.history.push('/msg'))
     } 
 }
 

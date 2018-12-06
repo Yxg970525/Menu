@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 940397 */
-  src: url('//at.alicdn.com/t/font_940397_ixebc8rx0xa.eot');
-  src: url('//at.alicdn.com/t/font_940397_ixebc8rx0xa.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_940397_ixebc8rx0xa.woff') format('woff'),
-  url('//at.alicdn.com/t/font_940397_ixebc8rx0xa.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_940397_ixebc8rx0xa.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_940397_7nrplkr4ktg.eot');
+  src: url('//at.alicdn.com/t/font_940397_7nrplkr4ktg.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_940397_7nrplkr4ktg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_940397_7nrplkr4ktg.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_940397_7nrplkr4ktg.svg#iconfont') format('svg');
 }
 
 .iconfont {
@@ -29,6 +29,7 @@
 
 .renshu:before { content: "\e61a"; }
 
+.lajitong:before { content: "\e610"; }
 
 
 
